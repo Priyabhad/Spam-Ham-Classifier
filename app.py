@@ -38,7 +38,7 @@ tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
 st.title("Spam Ham Classifier")
-st.write("by - [Mohit Bhadauria](https://github.com/mohitbhadauria02)")
+st.write("by - [Priyanka Bhaduria](https://github.com/Priyabhad)")
 
 input_sms = st.text_area("Enter message here")
 
